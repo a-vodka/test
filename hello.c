@@ -6,9 +6,13 @@ void myfunc()
     printf("Current date 07.12.2022\r\n");
 }
 
+void printGreeting(){
+    printf("Hello, BaseCamp!");
+}
+
 int main()
 {
-  printf("Hello, BaseCamp!")
+  printGreeting();
   printf("Andrii\n");
   printf("My name is Roman\n");
   printf("Andrii\n");
