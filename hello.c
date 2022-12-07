@@ -1,15 +1,10 @@
 #include <stdio.h>
 
-void myfunc()
-{
-    printf("Maksym!\r\n");
+void print_name() {
+    printf("Tereshchenko Dmytro\r\n");
 }
 
-int main()
-{
-  printf("Andrii\n");
-  myfunc();
-  printf("This is my BUG ! by yyefimov");
-	printf("hey you\n");
+int main() {
+  print_name();
   return 0;
 }
