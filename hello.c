@@ -1,4 +1,12 @@
+#include <stdio.h>
+
+void print_name(void)
+{
+	printf("Hello, my name is Sergiy Us.\n");
+}
+
 int main()
 {
-    return 0;
+	print_name();
+	return 0;
 }
