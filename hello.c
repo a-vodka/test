@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void prtMeinNachname() {
+  printf("Vyshnevskyi Mykhailo\r\n");
+}
+
 void print_name() 
 {
     printf("Tereshchenko Dmytro\r\n");
@@ -18,14 +22,18 @@ void printGreeting(){
 
 int main()
 {
+  prtMeinNachname();
   printGreeting();
+  myfunc();
+  
   printf("Andrii\n");
   printf("My name is Roman\n");
   printf("Andrii\n");
   printf("And Yurii__\n");
-  myfunc();
   printf("This is my BUG ! by yyefimov 18:48");
 	printf("hey you\n");
 	printf("green\n");
+  
   return 0;
 }
+
