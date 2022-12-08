@@ -2,7 +2,8 @@
 
 void print_my_name(void)
 {
-	printf("Hello, my name is Sergiy Us.\n");
+	printf("Hello, my name is Sergiy Us\n");
+	printf("The current time is Thu 08 Dec 2022 08:54:50\n");
 }
 
 void print_name() 
@@ -24,14 +25,14 @@ void printGreeting(){
 int main()
 {
 	print_my_name();
-  printGreeting();
-  printf("Andrii\n");
-  printf("My name is Roman\n");
-  printf("Andrii\n");
-  printf("And Yurii__\n");
-  myfunc();
-  printf("This is my BUG ! by yyefimov 18:48");
+	printGreeting();
+  	printf("Andrii\n");
+  	printf("My name is Roman\n");
+  	printf("Andrii\n");
+  	printf("And Yurii__\n");
+  	myfunc();
+  	printf("This is my BUG ! by yyefimov 18:48");
 	printf("hey you\n");
 	printf("green\n");
-  return 0;
+	return 0;
 }
