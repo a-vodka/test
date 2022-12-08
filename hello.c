@@ -2,7 +2,8 @@
 
 void hello_slava(void)
 {
-	printf("Hello Slava\n");
+	printf("Hello Slava ");
+	printf("Current date 08.12.2022\n");
 }
 
 void prtMeinNachname() {
