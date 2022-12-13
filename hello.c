@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define KGRN  "\x1B[32m"
+#define KCYN  "\x1B[36m"
 
 void hello_slava(void)
 {
@@ -30,6 +31,7 @@ void printGreeting(){
 voi hello_saurier()
 {
 	printf("%sHi from Saurier!\n", KGRN);
+	printf("%sHi from Saurier, but blue!\n", KCYN);
 }
 
 int main()
