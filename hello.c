@@ -1,7 +1,17 @@
 #include <stdio.h>
 #define KGRN  "\x1B[32m"
 
-void print_name() 
+void hello_slava(void)
+{
+	printf("Hello Slava ");
+	printf("Current date 08.12.2022\n");
+}
+
+void prtMeinNachname() {
+  printf("Vyshnevskyi Mykhailo\r\n");
+}
+
+void print_name()
 {
     printf("Tereshchenko Dmytro\r\n");
 }
@@ -23,15 +33,21 @@ void printGreeting(){
 
 int main()
 {
-  printGreeting();
-  printf("Andrii\n");
-  printf("My name is Roman\n");
-  printf("Andrii\n");
-  printf("And Yurii__\n");
-  myfunc();
-  printf("This is my BUG ! by yyefimov 18:48");
+	hello_slava();
+	prtMeinNachname();
+	printGreeting();
+	myfunc();
+
+	printf("Andrii\n");
+	printf("My name is Roman\n");
+	printf("Andrii\n");
+	printf("And Yurii__\n");
+	printf("This is my BUG ! by yyefimov 18:48");
 	printf("hey you\n");
 	printf("green\n");
   hello_saurier();
   return 0;
+
+
 }
+
