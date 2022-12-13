@@ -1,10 +1,15 @@
 #include <stdio.h>
+#define KGRN  "\x1B[32m"
 
 void print_name() 
 {
     printf("Tereshchenko Dmytro\r\n");
 }
 
+void hello_saurier()
+{
+	 printf("%sHi from Saurier!\n", KGRN);
+}
 void myfunc()
 {
     print_name();
@@ -27,5 +32,6 @@ int main()
   printf("This is my BUG ! by yyefimov 18:48");
 	printf("hey you\n");
 	printf("green\n");
+  hello_saurier();
   return 0;
 }
